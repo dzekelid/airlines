@@ -1,5 +1,4 @@
 ---
----
 name: Amadeus
 description: Amadeus travel technology helps businesses connect to the global travel
   ecosystem, manage operations more effectively and serve travellers better than ever
@@ -18,7 +17,18 @@ created: "2018-02-24"
 modified: "2018-02-24"
 url: https://raw.githubusercontent.com/streamdata-gallery/airlines/master/_listings/amadeus/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Amadeus
+  description: Amadeus travel technology helps businesses connect to the global travel
+    ecosystem, manage operations more effectively and serve travellers better than
+    ever
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
+  humanURL: ""
+  baseURL: https://api.sandbox.amadeus.com//v1.2
+  tags: Airlines
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery/airlines/master/_listings/amadeus/travel-record-record-locator-get.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
@@ -41,6 +51,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
