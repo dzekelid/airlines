@@ -32,7 +32,7 @@ apis:
   tags: Airlines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/airlines/master/_listings/expedia/api-flight-image-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/airlines/master/_listings/expedia/api-mobile-image-get.md
 x-common:
 - type: x-base
   url: http://api.ean.com
