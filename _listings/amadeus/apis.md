@@ -28,7 +28,7 @@ apis:
   tags: Airlines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/airlines/master/_listings/amadeus/flights-low-fare-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/airlines/master/_listings/amadeus/travel-intelligence-flight-traffic-get.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
