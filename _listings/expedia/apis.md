@@ -32,9 +32,9 @@ apis:
   tags: Airlines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/expedia/api-flight-airportdropdown-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/expedia/api-flight-checkout-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/expedia/api-flight-airportdropdown-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/expedia/api-flight-checkout-post-postman.md
 x-common:
 - type: x-base
   url: http://api.ean.com
