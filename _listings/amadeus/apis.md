@@ -30,26 +30,26 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/travel-intelligence-flight-traffic-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/travel-intelligence-flight-traffic-get-postman.md
-- name: Amadeus Get Flights Low Fare Search
-  description: "This is the low fare search engine Amadeus uses to retrieve the best
-    price for flights, based on our latest Master Pricer Travel Board technology.
-    This document describes how to make a low fare search and how to handle the returned
-    messages.\n\nThe message is composed of multiple results for given request. A
-    result is defined by a unique combination of price, tax, passenger type, fare
-    type, cabin, and availability for each requested segment. \n\nA result is then
-    composed of single or multiple itineraries. Each itinerary is composed of an outbound
-    leg, and, if a return date was specified, an inbound leg. Each leg is composed
-    of a list of one or more flights, that the traveller will be required to take
-    in order to get from the origin airport to the destination airport."
+- name: Amadeus Get Travel Intelligence Flight Traffic
+  description: "The Flight Traffic API lets you find the origin and destination traffic
+    summary between two journey points over a specified period.\nThe search returns
+    number of flights & travelers for each origin and destination, ordered by popularity,
+    for each month specified within the search period. This search can help you answer
+    questions like \"Where are people from Los Angeles traveling to between January
+    and April of 2015?\" or \"Which is the most popular month for New Yorkers to travel
+    last year?\". \nThis search is based on Amadeus' Travel Intelligence Engine, a
+    high performance scalable cloud-based platform, born in the age of Big Data and
+    purposely built for the industry bringing total flexibility and speed to business
+    intelligence for travel. Please see amadeus.com/travelintelligence for more information."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
   baseURL: https://api.sandbox.amadeus.com//v1.2
   tags: Airlines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/flights-low-fare-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/travel-intelligence-flight-traffic-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/flights-low-fare-search-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/travel-intelligence-flight-traffic-get-postman.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
