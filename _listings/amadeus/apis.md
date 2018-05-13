@@ -30,24 +30,26 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/travel-intelligence-flight-traffic-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/travel-intelligence-flight-traffic-get-postman.md
-- name: Amadeus Get Airports Nearest Relevant
-  description: |-
-    This service gives the most relevant airports in a radius of 500 km around the given coordinates. The relevance of an airport is computed by dividing the number of airport movements (take offs and landings) by the distance from the point. This causes the relevance of an airport to increase exponentially as you approach it.
-
-    To minimize response time, all distances are computed as a great-circle distance from the provided coordinates to the airport coordinates, and thus do not take into account traffic conditions, international boundaries, mountains, water, or other elements that might make the a nearby airport hard to reach.
-
-    Only civilian airports with at least several commercial flights per week are included in the results.
-
-    The result is a list of airports sorted by decreasing relevance. It always contains the nearest airport with significant commercial traffic. You can freely download the point of reference information used by this API from the Open Travel Data project.
+- name: Amadeus Get Flights Affiliate Search
+  description: "The Flight Affiliate Search API combines Amadeus' flight search technology
+    with Travel Audience's Connect API partners to provide a unique flight search,
+    where all results come with deep-links to book the flight at a partner's website.
+    The API will let you easily provide the traveler with a path to book flights from
+    your application.\nTravel Audience Connect partners include\n\n  CityJet, Air
+    Europa and TAP in Western Europe,\n  Ural Airlines in Russia, \n  Avianca Brazil
+    \ and\n  JAL in East Asia\n\n\nOnly Travel Audience Connect partner airlines are
+    searched. For an up-to-date list of routes, see the route maps on each partners
+    respective websites above. You can earn commission using the deep links provided
+    in the search results if you sign up for an account at connect.travelaudience.com."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
   baseURL: https://api.sandbox.amadeus.com//v1.2
   tags: Airlines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/airports-nearest-relevant-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/flights-affiliate-search-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/airports-nearest-relevant-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/flights-affiliate-search-get-postman.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
