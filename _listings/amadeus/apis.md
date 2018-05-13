@@ -12,9 +12,9 @@ tags:
 - Marketplace
 - Hotel
 - Airlines
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/airlines/master/_listings/amadeus/apis.yaml
+created: "2018-05-12"
+modified: "2018-05-12"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Amadeus
@@ -27,7 +27,9 @@ apis:
   tags: Airlines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/airlines/master/_listings/amadeus/travel-intelligence-flight-traffic-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/airports-autocomplete-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/airports-autocomplete-get-postman.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
