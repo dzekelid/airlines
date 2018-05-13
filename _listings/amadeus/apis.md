@@ -27,9 +27,9 @@ apis:
   tags: Airlines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/flights-inspiration-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/flights-low-fare-search-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/flights-inspiration-search-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/amadeus/flights-low-fare-search-get-postman.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
