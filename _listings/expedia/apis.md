@@ -32,9 +32,9 @@ apis:
   tags: Airlines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/expedia/m-api-flight-trip-v2-create-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/expedia/api-flight-farerules-tripid-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/expedia/m-api-flight-trip-v2-create-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/expedia/api-flight-farerules-tripid-get-postman.md
 x-common:
 - type: x-base
   url: http://api.ean.com
