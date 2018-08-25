@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-p
 x-kinRank: "7"
 x-alexaRank: "3886"
 tags: Airlines
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/lufthansa/apis.md
 specificationVersion: "0.14"
 apis:

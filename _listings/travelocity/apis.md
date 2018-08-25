@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1183-trave
 x-kinRank: "7"
 x-alexaRank: "3253"
 tags: Airlines
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/travelocity/apis.md
 specificationVersion: "0.14"
 apis:
