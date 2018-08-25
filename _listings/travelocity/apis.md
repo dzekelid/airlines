@@ -12,19 +12,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/travelocity/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Travelocity
-  x-api-slug: travelocity
-  description: Wander Wisely with the Price Match Guarantee, Free Changes & Cancellations,
-    24/7 Personal Assistance only with Travelocitys Customer First Guarantee. Book
-    & Save on Packages, Hotels, Flights, Cars, Cruises & more Today!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1183-travelocity.jpg
-  humanURL: http://connect.travelocity.com/
-  baseURL: https:///
-  tags: Airlines
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/airlines/master/_listings/travelocity/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://windowseat.travelocity.com/
